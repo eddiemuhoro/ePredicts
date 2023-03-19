@@ -1,0 +1,29 @@
+.progress-bar-container {
+    display: flex;
+    width: 80%;
+    height: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .progress-bar {
+    flex: 1;
+    margin-right: 5px;
+    background-color: #ddd;
+  }
+  
+  .progress-bar.filled {
+    background-color: #4caf50;
+  }
+  
+  .progress-bar-container-horizontal {
+    width: 80%;
+    height: 10px;
+    background-color: #ddd;
+  }
+  
+  .progress-bar-horizontal {
+    height: 10px;
+    background-color: #4caf50;
+    transition: width 0.5s ease-in-out;
+  }
+  

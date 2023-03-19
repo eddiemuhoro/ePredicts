@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Questionnaire from './components/questionnare/Qslides.js';
 function App() {
